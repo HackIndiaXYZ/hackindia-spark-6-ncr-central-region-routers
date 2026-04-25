@@ -1,0 +1,17 @@
+{
+  "name": "blockchain-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "ethers": "^6.16.0",
+    "express": "^5.2.1"
+  }
+}
