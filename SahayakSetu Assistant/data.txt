@@ -1,0 +1,25 @@
+[medical]
+If a person is bleeding:
+Apply firm pressure using clean cloth
+Elevate injured area above heart level
+Do not remove soaked cloth
+Seek medical help immediately
+
+[fire]
+If there is fire:
+Leave building immediately
+Stay low to avoid smoke
+Do not use elevators
+Call emergency services
+
+[accident]
+If accident occurs:
+Do not move injured person unnecessarily
+Check breathing and consciousness
+Call ambulance immediately
+
+[natural_disaster]
+During earthquake:
+Drop, cover and hold
+Stay away from windows
+Move to open area after shaking stops
