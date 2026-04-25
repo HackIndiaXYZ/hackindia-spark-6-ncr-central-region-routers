@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Sahayaksetu</string>
+	<string>Crisis Match</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>sahayaksetu</string>
+	<string>crisis_match</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,8 +24,25 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>https</string>
+		<string>http</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location is required for live tracking between you and your assigned responder during emergencies.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location is required for continuous coordination with responders during an active crisis.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is required to connect you with the nearest emergency responders for rapid intervention.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>CrisisMatch needs microphone access to transcribe your emergency voice reports.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>CrisisMatch uses speech recognition to help you report emergencies faster via voice.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>CrisisMatch requires contact access to help you quickly select your emergency contacts.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -49,6 +66,17 @@
 	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.pravera.flutter_foreground_task.refresh</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
