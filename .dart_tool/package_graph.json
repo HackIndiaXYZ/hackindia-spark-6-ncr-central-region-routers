@@ -35,7 +35,8 @@
         "speech_to_text",
         "supabase_flutter",
         "telephony",
-        "url_launcher"
+        "url_launcher",
+        "webview_flutter"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -361,6 +362,16 @@
         "supabase",
         "url_launcher",
         "web"
+      ]
+    },
+    {
+      "name": "webview_flutter",
+      "version": "4.13.1",
+      "dependencies": [
+        "flutter",
+        "webview_flutter_android",
+        "webview_flutter_platform_interface",
+        "webview_flutter_wkwebview"
       ]
     },
     {
@@ -1085,6 +1096,34 @@
         "app_links_platform_interface",
         "app_links_web",
         "flutter"
+      ]
+    },
+    {
+      "name": "webview_flutter_wkwebview",
+      "version": "3.24.5",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "path",
+        "webview_flutter_platform_interface"
+      ]
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "version": "2.15.1",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "plugin_platform_interface"
+      ]
+    },
+    {
+      "name": "webview_flutter_android",
+      "version": "4.11.0",
+      "dependencies": [
+        "flutter",
+        "meta",
+        "webview_flutter_platform_interface"
       ]
     },
     {
